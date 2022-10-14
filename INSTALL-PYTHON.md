@@ -23,6 +23,25 @@ sudo make altinstall
 
 
 python3.7 --version
+
+
+django@test-imac:~$ sudo chmod -R 775 .cache/
+
+django@test-imac:~$ sudo chown django: .cache/
+
+
+python3.7 -m pip install --upgrade pip --user
+
+sudo apt install pythonpy
+
+python3.7 -m pip install virtualenv
+
+virtualenv env  (normal)
+
+virtualenv  --python="/usr/local/bin/python3.7" env    (specific python version)
+
+source env/bin/activate
+
 ````
 
 ## install from repo
