@@ -7,7 +7,9 @@ lern-python
 python.exe -m pip install --upgrade pip
 ````
 
-## use virtual env
+## use virtualenv
+
+python -m virtualenv env
 
 ````
 virtualenv env
